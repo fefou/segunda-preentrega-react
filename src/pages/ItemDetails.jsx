@@ -4,7 +4,7 @@ import axios from "axios";
 import ItemDetailContainer from "../components/ItemDetailContainer/ItemDetailContainer";
 
 function getProductById(id) {
-  return axios.get(`https://fakestoreapi.com/products/${id}`);
+  return axios.get(`https://dummyjson.com/products/${id}`);
 }
 
 const ItemDetails = () => {
